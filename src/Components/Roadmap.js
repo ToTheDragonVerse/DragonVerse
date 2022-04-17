@@ -21,7 +21,7 @@ export default function Roadmap() {
             <Col lg={7} md={12}>
               <div className="text-white">
                 <p className="brown-color mt-3 font-semi-bold fontSize28">
-                  In our effort to provide maximum value to our supporters, 25% of all sales fees will be given back to our supporters in $Drip. 50% of all sales fees will be put in to a liquidity stabilization pool, and never touched. The final 25% will be for operations, and growing the DragonVerse.
+                  In our effort to provide maximum value to our supporters, 25% of all sales fees will be given back to our supporters in $Drip. 50% of all sales fees will be put in to a liquidity pool, and locked. The final 25% will be for operations, and growing the DragonVerse.
                 </p>
               </div>
               <a

@@ -22,7 +22,7 @@ export default function Roadmap() {
                   <b><p className="mb-0 font-xxl aboutHeading">Storyline</p></b>
                 </div>
                 <p className="brown-color mt-3 font-semi-bold fontSize28">
-                  DragonVerse Storyline - DragonVerse dragons live along side an Earthlike planet with advanced humans 3 degrees from our Earth, called E9. The dragons of E9 are three degrees from source making them the third oldest dragons in their section of the DragonVerse.
+                  DragonVerse dragons live along side an Earthlike planet with advanced humans 3 degrees from our Earth, called E9. The dragons of E9 are three degrees from source making them the third oldest dragons in their section of the DragonVerse.
                 </p>
               </div>
             </Col>

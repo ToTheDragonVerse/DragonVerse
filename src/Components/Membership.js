@@ -21,7 +21,7 @@ export default function Roadmap() {
                   Each Dragon buyer gets a free 3 month membership to the DragonVerse and features like the $DripFilter where you can upload your own pictures, or NFTs and $Drip them out. 
                 </p>
                 <p className="brown-color fontSize18">
-                  You can also $Drip out your dragon in outfits you see your favorite athletes or celebrities wear. Non dragon holders can still join the DragonVerse with a 1 year membership for $9.99 (Connect wallet to join the DragonVerse)
+                  You can also $Drip out your dragon in outfits you see your favorite athletes or celebrities wear. Non dragon holders can still join the DragonVerse with a 3 month membership for $24.99 (Connect wallet to join the DragonVerse)
                 </p>
                 <p className="brown-color fontSize16">
                   *Membership benefits continue even if you sell your dragon.

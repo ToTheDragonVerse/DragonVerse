@@ -3,9 +3,8 @@ export default {
     {
       question: "WHEN IS THE SALE?",
       answer:
-        "<p>The presale will open on April 15th and last for 7 days, ending April 21th at midnight Pacific Standard.</p>" +
+       "TBD. Join the discord or our email list to stay up to date." +
         "<p>Whitelisted members will be able to mint a maximum of 2 NFTs per registered address at a reduced price of 0.15 Eth + gas fees per NFT.</p>" +
-        "<p>Our general sale event will take place on May 4th at 9AM Pacific.</p>" +
         "<p>General public will be able to mint up to 3 NFTs per address at .2 ETH plus gas fees.</p>",
       collapse: true,
     },
@@ -25,7 +24,7 @@ export default {
     {
       question: "WILL THERE BE A WHITELIST?",
       answer:
-        "Yes! There will be 1000 spots. A selected number of active members will be granted a spot in our whitelist and be able to mint 5 NFTs each prior to the sale at a lower price of 0.15 ETH. Users who are supportive of the project and active in our Discord will occasionally be handpicked by our team, so make sure to be active, add to the conversation, help newcomers, and be respectful to others and you might just win a spot on our whitelist. We will also be doing giveaways and raffles.",
+        "Yes! There will be 100 spots. A selected number of active members will be granted a spot in our whitelist and be able to mint 3 NFTs each prior to the sale at a lower price of 0.15 ETH. Users who are supportive of the project and active in our Discord will occasionally be handpicked by our team, so make sure to be active, add to the conversation, help newcomers, and be respectful to others and you might just win a spot on our whitelist. We will also be doing giveaways and raffles.",
       collapse: true,
     },
     {
