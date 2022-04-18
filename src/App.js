@@ -23,8 +23,6 @@ import ConnectWallet from "./Components/ConnectWallet";
 import DropCount from "./Components/DropCount";
 import MetamaskProvider from "./Components/MetamaskProvider";
 
-import PricingPlans from "./Components/PricingPlan/index";
-
 function getLibrary(provider) {
   return new Web3(provider);
 }
@@ -40,7 +38,6 @@ function App() {
         <About />
         <Storyline />
         <Membership />
-        <PricingPlans />
         <DevelopStages />
         <Roadmap />
         {/* <About /> */}

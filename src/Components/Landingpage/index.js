@@ -6,7 +6,7 @@ const ladningpage = () => {
     return (
         <div className='lpBG'>
             <Header />
-            <AimScreen />
+            <AimScreen/>
         </div>
     )
 }

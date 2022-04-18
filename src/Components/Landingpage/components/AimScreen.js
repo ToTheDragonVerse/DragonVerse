@@ -1,12 +1,15 @@
 import React from 'react'
-import { Col, Container, Image, Row } from 'react-bootstrap'
+import { Col, Container, Image, Row, Modal } from 'react-bootstrap'
 import Educate from '../../../assets/img/educate.png'
 import Entertain from '../../../assets/img/entertain.png'
 import DragonBtn from '../../../assets/img/dragon-btn.png'
 import LearnBtn from '../../../assets/img/learn-btn.png'
 import FunGirl from '../../../assets/img/age.png'
+import PricingPlan from '../../PricingPlan/components/PricingIndex'
 
 const AimScreen = () => {
+    const [show, setShow] = React.useState(false);
+
     return (
         <section className='aimScreens'>
             <Container>
@@ -34,7 +37,7 @@ const AimScreen = () => {
                             <p>
                                 Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Be The Best Mom, Dad, Grandparent, Aunt Or Uncle And Get Your Custom Video Today.
                             </p>
-                            <a href='#pricing'> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
+                            <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                 </Row>
@@ -46,6 +49,15 @@ const AimScreen = () => {
                     </Col>
                 </Row>
             </Container>
+            <Modal
+                show={show}
+                onHide={() => setShow(false)}
+                style={{width: '100%', maxWidth:'100%'}}
+                dialogClassName="pricing-modal"
+                aria-labelledby="example-custom-modal-styling-title"
+            >
+                <PricingPlan/>
+            </Modal>
         </section>
     )
 }
