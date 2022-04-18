@@ -97,6 +97,9 @@ export default function Navigationbar() {
               <Nav.Link href="#team" className="header-btn">
                 Team
               </Nav.Link>
+              <Nav.Link href="#pricing" className="header-btn">
+                Pricing
+              </Nav.Link>
               <Nav.Link href="#faq" className="header-btn">
                 FAQ
               </Nav.Link>
@@ -177,6 +180,9 @@ export default function Navigationbar() {
                 </Nav.Link>
                 <Nav.Link href="#team" className="header-btn">
                   Team
+                </Nav.Link>
+                <Nav.Link href="#pricing" className="header-btn">
+                  Pricing
                 </Nav.Link>
                 <Nav.Link href="#faq" className="header-btn">
                   FAQ
