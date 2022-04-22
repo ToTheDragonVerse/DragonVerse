@@ -108,7 +108,7 @@ export default function Viproom() {
         </div>
         <div className="text-center pt-4 pb-4">
           <a
-            href="https://discord.gg/Wh92GK64"
+            href="https://discord.gg/dY96Fytm"
             className="vip-room-register-btn cursor-pointer"
             style={{
               backgroundImage: "url(image/vip-register-btn.png)",

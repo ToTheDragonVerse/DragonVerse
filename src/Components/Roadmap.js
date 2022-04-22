@@ -25,7 +25,7 @@ export default function Roadmap() {
                 </p>
               </div>
               <a
-                href="https://discord.gg/bGJEG6Hz"
+                href="https://discord.gg/dY96Fytm"
                 target="_blank"
                 className="pr-4 joinUs font-xl brown-color cursor-pointer"
               >
