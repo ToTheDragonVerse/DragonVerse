@@ -193,13 +193,13 @@ export default function Navigationbar() {
                     <FaInstagram style={{ color: "white" }} />
                   </span>
                 </Nav.Link>
-                <Nav.Link href="https://twitter.com/bargangnft" target="_blank">
+                <Nav.Link href="http://twitter.com/dragonverses" target="_blank">
                   <span className="nb-icon">
                     <FaTwitter style={{ color: "white" }} />
                   </span>
                 </Nav.Link>
                 <Nav.Link
-                  href="https://discord.gg/bGJEG6Hz"
+                  href="https://discord.gg/dY96Fytm"
                   className="discord-btn "
                   target="_blank"
                 >

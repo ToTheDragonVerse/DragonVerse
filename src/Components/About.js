@@ -37,7 +37,7 @@ export default function About() {
               The goal of DragonVerse is to generate a passive income for all coin($Drip) and NfT holders through buying/selling of said assets, and real world stuffed animals, custom animation, tv shows, movies, or licensing.              
             </p>
             <a
-              href="https://discord.gg/bGJEG6Hz"
+              href="https://discord.gg/dY96Fytm"
               target="_blank"
               className="pr-4 joinUs font-xl brown-color cursor-pointer"
             >

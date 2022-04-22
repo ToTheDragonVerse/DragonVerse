@@ -11,7 +11,7 @@ export default function JoinDiscord() {
             <h3 className="text-orange ">EVERYONE FEELS WELCOME HERE</h3>
             <h2 className="">Join our Discord</h2>
             <a
-              href="https://discord.gg/Wh92GK64"
+              href="https://discord.gg/dY96Fytm"
               target="_blank"
               className="start-button cursor-pointer"
               style={{
