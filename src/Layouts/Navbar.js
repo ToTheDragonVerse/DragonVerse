@@ -110,13 +110,13 @@ export default function Navigationbar() {
                   <FaInstagram />
                 </span>
               </Nav.Link>
-              <Nav.Link href="https://twitter.com/bargangnft" target="_blank" style={{paddingRight: "1rem"}}>
+              <Nav.Link href="http://twitter.com/dragonverses" target="_blank" style={{paddingRight: "1rem"}}>
                 <span className="nb-icon">
                   <FaTwitter />
                 </span>
               </Nav.Link>
               <Nav.Link
-                href="https://discord.gg/bGJEG6Hz"
+                href="https://discord.gg/dY96Fytm"
                 className="discord-btn "
                 target="_blank"
                 style={{paddingRight: "1rem"}}
