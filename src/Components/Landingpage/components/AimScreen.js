@@ -33,7 +33,18 @@ const AimScreen = () => {
                     <Col lg={4} className="order-2 order-lg-2">
                         <div className='aimBox'>
                             <h2>ENTERTAIN</h2>
-                            <Image src={Entertain} className='fluid' alt="Educate" />
+                            {/* <Image src={Entertain} className='fluid' alt="Educate" /> */}
+                            <iframe
+                                className='fluid'
+                                alt="Educate"
+                                width="450"
+                                height="250"
+                                src={`https://www.youtube.com/embed/MlccZeGqXuM`}
+                                frameBorder="5"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                title="Educate"
+                            />
                             <p>
                                 Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Be The Best Mom, Dad, Grandparent, Aunt Or Uncle And Get Your Custom Video Today.
                             </p>
@@ -52,11 +63,11 @@ const AimScreen = () => {
             <Modal
                 show={show}
                 onHide={() => setShow(false)}
-                style={{width: '100%', maxWidth:'100%'}}
+                style={{ width: '100%', maxWidth: '100%' }}
                 dialogClassName="pricing-modal"
                 aria-labelledby="example-custom-modal-styling-title"
             >
-                <PricingPlan/>
+                <PricingPlan />
             </Modal>
         </section>
     )
