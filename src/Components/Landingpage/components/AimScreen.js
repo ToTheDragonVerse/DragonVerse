@@ -46,7 +46,7 @@ const AimScreen = () => {
                                 title="Educate"
                             />
                             <p>
-                                Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Be The Best Mom, Dad, Grandparent, Aunt Or Uncle And Get Your Custom Video Today.
+                            Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Wan To Be Be Mom, Dad, Grandparent, Aunt Or Uncle Of The Year? Click Below
                             </p>
                             <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
                         </div>
