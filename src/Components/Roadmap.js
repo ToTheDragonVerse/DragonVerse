@@ -14,7 +14,7 @@ export default function Roadmap() {
                   <div className="brown-color">
                     <b><p className="mb-0 font-xxl aboutHeading">ROADMAP</p></b>
                   </div>
-                  <Image src="image/roadmap.png" className="w-100 " rounded />
+                  <Image src="image/roadmap1.png" className="w-100 " rounded />
                 </Col>
               </Row>
             </Col>
