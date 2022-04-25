@@ -28,6 +28,11 @@ export default function Team() {
         image: "image/team_4.jpg",
         name: "The Numbers Genius",
         info: "Accountant",
+      },
+      {
+        image: "image/team_101.jpeg",
+        name: "Dripped Out Mobile Developer",
+        info: "The Developer",
       }
     ];
     setTeamMembers(teamMembers);

@@ -49,7 +49,7 @@ const AimScreen = () => {
                             Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Want To Be Be Mom, Dad, Grandparent, Aunt Or Uncle Of The Year? Click Below
                             </p>
                             {/* <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a> */}
-                            <a href='http://test.thedragonverse.net.s3-website.us-east-2.amazonaws.com/'> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
+                            <a href='http://friendsfree.thedragonverse.net/'> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                 </Row>
