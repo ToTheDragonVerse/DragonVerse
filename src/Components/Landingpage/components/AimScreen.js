@@ -6,6 +6,7 @@ import DragonBtn from '../../../assets/img/dragon-btn.png'
 import LearnBtn from '../../../assets/img/learn-btn.png'
 import FunGirl from '../../../assets/img/age.png'
 import PricingPlan from '../../PricingPlan/components/PricingIndex'
+import { Link } from 'react-router-dom'
 
 const AimScreen = () => {
     const [show, setShow] = React.useState(false);
@@ -49,7 +50,7 @@ const AimScreen = () => {
                             Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Want To Be Be Mom, Dad, Grandparent, Aunt Or Uncle Of The Year? Click Below
                             </p>
                             {/* <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a> */}
-                            <a href='http://friendsfree.thedragonverse.net/'> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
+                            <Link to='/whitelist'> <Image src={LearnBtn} className='fluid' alt='btn' /> </Link>
                         </div>
                     </Col>
                 </Row>

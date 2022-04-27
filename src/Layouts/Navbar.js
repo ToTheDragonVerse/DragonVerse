@@ -79,9 +79,11 @@ export default function Navigationbar() {
   return (
     <Navbar expand={false} variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand href="#">
-          <Image src="logo.png" style={{ width: "65px" }} />
-        </Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand href="#">
+            <Image src="logo.png" style={{ width: "65px" }} />
+          </Navbar.Brand>
+        </Link>
         <div className="mobileHidden">
           <div style={{ display: "flex", alignItems: "center" }}>
             <Nav className="me-auto" style={{ flexDirection: "row" }}>
@@ -105,12 +107,12 @@ export default function Navigationbar() {
               className="me-auto"
               style={{ justifyContent: "center", flexDirection: "row", marginLeft: "6rem" }}
             >
-              <Nav.Link href="https://instagram.com/bargangnft" target="_blank" style={{paddingRight: "1rem"}}>
+              <Nav.Link href="https://instagram.com/bargangnft" target="_blank" style={{ paddingRight: "1rem" }}>
                 <span className="nb-icon">
                   <FaInstagram />
                 </span>
               </Nav.Link>
-              <Nav.Link href="http://twitter.com/dragonverses" target="_blank" style={{paddingRight: "1rem"}}>
+              <Nav.Link href="http://twitter.com/dragonverses" target="_blank" style={{ paddingRight: "1rem" }}>
                 <span className="nb-icon">
                   <FaTwitter />
                 </span>
@@ -119,7 +121,7 @@ export default function Navigationbar() {
                 href="https://discord.gg/dY96Fytm"
                 className="discord-btn "
                 target="_blank"
-                style={{paddingRight: "1rem"}}
+                style={{ paddingRight: "1rem" }}
               >
                 <p>
                   <svg
@@ -184,7 +186,7 @@ export default function Navigationbar() {
               </Nav>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
-              <Nav style={{flexDirection: "row", justifyContent: "space-evenly"}}>
+              <Nav style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
                 <Nav.Link
                   href="https://instagram.com/bargangnft"
                   target="_blank"
