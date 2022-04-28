@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom";
 import Whitelist from "./pages/whitelist";
+import Pricingplans from "./Components/PricingPlan";
 
 function getLibrary(provider) {
   return new Web3(provider);
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/whitelist" element={<Whitelist />} />
+          <Route path="/pricing" element={<Pricingplans />} />
         </Routes>
         {/* </MetamaskProvider> */}
       </Web3ReactProvider>
