@@ -13,33 +13,11 @@ import {
 } from "react-bootstrap";
 import { Drawer } from "react-bootstrap-drawer";
 import { FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
-import { useWeb3React } from "@web3-react/core";
-import { injected } from "../utils/connector";
-import { useEagerConnect } from "../utils/hooks";
 
 export default function Navigationbar() {
   const [addCss, setAddCss] = useState("");
-  const [isWrongNetwork, setIsWrongNetwork] = useState();
-  // useEagerConnect();
-  const { chainId, active, activate, deactivate, account } = useWeb3React();
   const [open, setOpen] = useState(false);
   const handleToggle = () => setOpen(!open);
-  const context = useWeb3React();
-
-  // useEagerConnect();
-
-  useEffect(() => {
-    if (active) {
-      if (chainId !== parseInt(process.env.REACT_APP_CHAIN_ID)) {
-        toast.error(
-          "You are on wrong network. Please switch to Ethereum Mainnet to continue"
-        );
-        setIsWrongNetwork(true);
-      } else {
-        setIsWrongNetwork(false);
-      }
-    }
-  }, [chainId]);
 
   useEffect(() => {
     if (window.innerWidth < 985) {
@@ -47,29 +25,19 @@ export default function Navigationbar() {
     }
   }, []);
 
-  async function connect(injected) {
-    activate(injected);
-  }
-
-  async function disConnect(injected) {
-    deactivate(injected);
-  }
-  // window.localStorage.setItem("active", active);
-
   const renderButton = (
     <>
-      {active ? (
+      {false ? (
         <div className="connectedWallet">
-          <div className="walletAddress">{account}</div>
+          <div className="walletAddress"></div>
           <button
             className="disConnectWallet"
-            onClick={() => disConnect(injected)}
           >
             Disconnect
           </button>
         </div>
       ) : (
-        <button className="connectWallet" onClick={() => connect(injected)}>
+        <button className="connectWallet">
           Connect
         </button>
       )}

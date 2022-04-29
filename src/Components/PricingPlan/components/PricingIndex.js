@@ -25,7 +25,7 @@ const PricingIndex = () => {
         <Row>
           {packages.map((item, index) => (
             <Col lg={4}>
-              <PricingPlan detail={item.description} planFee={item.usdPrice} theme={item.theme} />
+              <PricingPlan detail={item.description} planFee={item.usdPrice} theme={item.theme} item={item}/>
             </Col>
           ))}
           <Col lg={4}>
